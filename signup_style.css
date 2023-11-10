@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(113, 23, 123), rgb(209, 124, 209));
+    background-attachment: fixed;
+}
+
+.form-heading {
+    color: rgb(113, 23, 123);
+    font-weight: bold;
+}
+
+#registrationForm {
+    background-color: lavender;
+    width: 400px;
+    padding: 40px;
+    margin: 10vh auto 10vh auto;
+    border-radius: 15px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+::placeholder {
+    font-size: 11px;
+}
+
+
+.registerButton {
+    background-color: rgb(113, 23, 123);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-style {
+    color: rgb(113, 23, 123);
+    padding: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
